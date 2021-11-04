@@ -7,7 +7,7 @@
 
 
 `git clone Hoge`
-- 使用例　`git clone https://github.com/abpyon/pyVTA.git`
+- 使用例　`git clone https://github.com/abpyon/VTA.git`
 
 この辺は暇な時に更新する〜
 
