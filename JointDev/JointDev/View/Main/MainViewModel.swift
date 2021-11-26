@@ -21,7 +21,12 @@ extension MainViewModel {
     private func makeSections() -> [CellType] {
         let cells: [CellType] = [
             .ueda(star: true),
-            .hiroto
+            .ryouma,
+            .masaki,
+            .kame,
+            .katoshin,
+            .keke,
+            .kei
         ]
         return cells
     }

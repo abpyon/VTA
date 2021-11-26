@@ -35,8 +35,24 @@ extension MainViewController: UITableViewDelegate {
         case .ueda(star:_):
             let vc: TempViewController = .instantiate()
             present(vc)
-        case .hiroto: break
-            // な感じで遷移メソッドを書いておく
+        case .ryouma:
+            // 遷移メソッドをかく
+            break
+        case .masaki:
+            // 遷移メソッドをかく
+            break
+        case .kame:
+            // 遷移メソッドをかく
+            break
+        case .katoshin:
+            // 遷移メソッドをかく
+            break
+        case .keke:
+            // 遷移メソッドをかく
+            break
+        case .kei:
+            // 遷移メソッドをかく
+            break
         }
      }
 }
