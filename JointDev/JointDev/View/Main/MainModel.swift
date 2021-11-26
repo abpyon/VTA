@@ -9,14 +9,29 @@ import Foundation
 
 enum CellType: Hashable {
     case ueda(star: Bool)
-    case hiroto
+    case ryouma
+    case masaki
+    case kame
+    case katoshin
+    case keke
+    case kei
     
     var title: String {
         switch self {
         case .ueda:
             return "Ueda"
-        case .hiroto:
-            return "Hiroto"
+        case .ryouma:
+            return "ryouma"
+        case .masaki:
+            return "masaki"
+        case .kame:
+            return "kame"
+        case .katoshin:
+            return "katoshin"
+        case .keke:
+            return "keke"
+        case .kei:
+            return "kei"
         }
     }
 }
