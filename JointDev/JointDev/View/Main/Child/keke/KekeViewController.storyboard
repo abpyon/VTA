@@ -34,7 +34,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Set"/>
                                 <connections>
-                                    <action selector="setButton:" destination="auf-e6-Hux" eventType="touchUpInside" id="9Bs-2J-Jmv"/>
+                                    <action selector="setButton:" destination="auf-e6-Hux" eventType="touchUpInside" id="Ngc-1H-XrN"/>
                                 </connections>
                             </button>
                         </subviews>
