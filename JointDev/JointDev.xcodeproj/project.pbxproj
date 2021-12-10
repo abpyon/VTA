@@ -20,6 +20,10 @@
 		4526E07F27343C2500BC93B0 /* TempViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4526E07E27343C2500BC93B0 /* TempViewController.storyboard */; };
 		4526E08427343C3D00BC93B0 /* TempViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4526E08327343C3D00BC93B0 /* TempViewModel.swift */; };
 		4526E08927343C5800BC93B0 /* TempModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4526E08827343C5800BC93B0 /* TempModel.swift */; };
+		635252462763286400D8BA1E /* StopAlarm.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 635252452763286300D8BA1E /* StopAlarm.storyboard */; };
+		63525248276328A300D8BA1E /* StopAlarmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63525247276328A300D8BA1E /* StopAlarmViewController.swift */; };
+		6352524A27632B9E00D8BA1E /* CurrentTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6352524927632B9E00D8BA1E /* CurrentTime.swift */; };
+		6352524C27632E1000D8BA1E /* Alarm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6352524B27632E1000D8BA1E /* Alarm.swift */; };
 		65C27C31274FE9DE003DBEF6 /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C27C2F274FE9DE003DBEF6 /* MainTableViewCell.swift */; };
 		65C27C32274FE9DE003DBEF6 /* MainTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65C27C30274FE9DE003DBEF6 /* MainTableViewCell.xib */; };
 		65C27C37274FEC9B003DBEF6 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C27C36274FEC9B003DBEF6 /* MainViewModel.swift */; };
@@ -78,6 +82,10 @@
 		4526E07E27343C2500BC93B0 /* TempViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TempViewController.storyboard; sourceTree = "<group>"; };
 		4526E08327343C3D00BC93B0 /* TempViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempViewModel.swift; sourceTree = "<group>"; };
 		4526E08827343C5800BC93B0 /* TempModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempModel.swift; sourceTree = "<group>"; };
+		635252452763286300D8BA1E /* StopAlarm.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = StopAlarm.storyboard; sourceTree = "<group>"; };
+		63525247276328A300D8BA1E /* StopAlarmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopAlarmViewController.swift; sourceTree = "<group>"; };
+		6352524927632B9E00D8BA1E /* CurrentTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentTime.swift; sourceTree = "<group>"; };
+		6352524B27632E1000D8BA1E /* Alarm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alarm.swift; sourceTree = "<group>"; };
 		65C27C2F274FE9DE003DBEF6 /* MainTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
 		65C27C30274FE9DE003DBEF6 /* MainTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainTableViewCell.xib; sourceTree = "<group>"; };
 		65C27C36274FEC9B003DBEF6 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
@@ -297,8 +305,12 @@
 		65C27C672750ABBD003DBEF6 /* keke */ = {
 			isa = PBXGroup;
 			children = (
-				65C27C742750AC19003DBEF6 /* KekeViewController.storyboard */,
 				65C27C792750AC24003DBEF6 /* KekeViewController.swift */,
+				65C27C742750AC19003DBEF6 /* KekeViewController.storyboard */,
+				63525247276328A300D8BA1E /* StopAlarmViewController.swift */,
+				635252452763286300D8BA1E /* StopAlarm.storyboard */,
+				6352524927632B9E00D8BA1E /* CurrentTime.swift */,
+				6352524B27632E1000D8BA1E /* Alarm.swift */,
 			);
 			path = keke;
 			sourceTree = "<group>";
@@ -421,6 +433,7 @@
 				65C27C932750AC60003DBEF6 /* MasakiViewController.storyboard in Resources */,
 				4526E02E2734385200BC93B0 /* Assets.xcassets in Resources */,
 				65C27CA22750AC7F003DBEF6 /* RyomaViewController.storyboard in Resources */,
+				635252462763286400D8BA1E /* StopAlarm.storyboard in Resources */,
 				4526E0292734384F00BC93B0 /* Main.storyboard in Resources */,
 				4526E07F27343C2500BC93B0 /* TempViewController.storyboard in Resources */,
 				65C27C32274FE9DE003DBEF6 /* MainTableViewCell.xib in Resources */,
@@ -456,6 +469,7 @@
 				65C27C4D274FFF0F003DBEF6 /* UIViewController+.swift in Sources */,
 				65C27C44274FF977003DBEF6 /* UITableViewCell+.swift in Sources */,
 				65C27C31274FE9DE003DBEF6 /* MainTableViewCell.swift in Sources */,
+				6352524A27632B9E00D8BA1E /* CurrentTime.swift in Sources */,
 				4526E07927343C0F00BC93B0 /* TempViewController.swift in Sources */,
 				65C27C6B2750ABFA003DBEF6 /* KeiViewController.swift in Sources */,
 				65C27C7F2750AC30003DBEF6 /* KatoshinViewController.swift in Sources */,
@@ -464,11 +478,13 @@
 				4526E0222734384F00BC93B0 /* AppDelegate.swift in Sources */,
 				65C27C7A2750AC24003DBEF6 /* KekeViewController.swift in Sources */,
 				4526E08427343C3D00BC93B0 /* TempViewModel.swift in Sources */,
+				63525248276328A300D8BA1E /* StopAlarmViewController.swift in Sources */,
 				4526E0242734384F00BC93B0 /* SceneDelegate.swift in Sources */,
 				65C27C52274FFF8C003DBEF6 /* NSObject+.swift in Sources */,
 				65C27C3C274FECC3003DBEF6 /* MainModel.swift in Sources */,
 				65C27C9D2750AC76003DBEF6 /* RyomaViewController.swift in Sources */,
 				65C27C37274FEC9B003DBEF6 /* MainViewModel.swift in Sources */,
+				6352524C27632E1000D8BA1E /* Alarm.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
