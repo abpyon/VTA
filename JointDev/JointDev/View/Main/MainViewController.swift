@@ -37,6 +37,8 @@ extension MainViewController: UITableViewDelegate {
             present(vc)
         case .ryouma:
             // 遷移メソッドをかく
+            let vc: RyomaViewController = .instantiate()
+            present(vc)
             break
         case .masaki:
             // 遷移メソッドをかく
