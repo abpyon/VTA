@@ -42,8 +42,8 @@ extension MainViewController: UITableViewDelegate {
             // 遷移メソッドをかく
             break
         case .kame:
-            // 遷移メソッドをかく
-            break
+            let vc: CameTableViewController = .instantiate()
+            present(vc)
         case .katoshin:
             // 遷移メソッドをかく
             break
