@@ -7,6 +7,8 @@
 
 import UIKit
 
+// final class ~みたいにしても良いけど、いちいちアクセスが面倒になるのでこんな感じ
+
 struct TempModel {
     struct UserImageModel {
         let imageName: Int
