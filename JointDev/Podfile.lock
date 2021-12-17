@@ -1,0 +1,20 @@
+PODS:
+  - Alamofire (5.4.4)
+  - Kanna (5.2.7)
+
+DEPENDENCIES:
+  - Alamofire
+  - Kanna
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Kanna
+
+SPEC CHECKSUMS:
+  Alamofire: f3b09a368f1582ab751b3fff5460276e0d2cf5c9
+  Kanna: 01cfbddc127f5ff0963692f285fcbc8a9d62d234
+
+PODFILE CHECKSUM: ce7f8c8d99ecc2366fe9beeb7fa780c2786890b1
+
+COCOAPODS: 1.11.2

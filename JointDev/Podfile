@@ -1,0 +1,10 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '13.0'
+
+target 'JointDev' do
+  use_frameworks!
+
+  # Pods for JointDev
+  pod 'Alamofire'
+  pod 'Kanna'
+end
