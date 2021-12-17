@@ -37,14 +37,9 @@ final class RyomaViewController: UIViewController,
 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
-        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "RyomaTableViewCell", for: indexPath) as! RyomaTableViewCell
         
-        let profileImage = cell.viewWithTag(1) as! UIImageView
-        let userName = cell.viewWithTag(2) as! UILabel
-        let userID = cell.viewWithTag(3) as! UILabel
-        let comment = cell.viewWithTag(4) as! UILabel
-        
-        userName.text = foods[indexPath.row]
+        cell.userName.text = foods[indexPath.row]
         
         return cell
         

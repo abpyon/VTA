@@ -20,6 +20,9 @@
 		4526E07F27343C2500BC93B0 /* TempViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4526E07E27343C2500BC93B0 /* TempViewController.storyboard */; };
 		4526E08427343C3D00BC93B0 /* TempViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4526E08327343C3D00BC93B0 /* TempViewModel.swift */; };
 		4526E08927343C5800BC93B0 /* TempModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4526E08827343C5800BC93B0 /* TempModel.swift */; };
+		5E02AECA27632AA800C198FD /* twitterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E02AEC927632AA800C198FD /* twitterModel.swift */; };
+		5E02AED02763307500C198FD /* RyomaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E02AECE2763307500C198FD /* RyomaTableViewCell.swift */; };
+		5E02AED12763307500C198FD /* RyomaTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E02AECF2763307500C198FD /* RyomaTableViewCell.xib */; };
 		65C27C31274FE9DE003DBEF6 /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C27C2F274FE9DE003DBEF6 /* MainTableViewCell.swift */; };
 		65C27C32274FE9DE003DBEF6 /* MainTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65C27C30274FE9DE003DBEF6 /* MainTableViewCell.xib */; };
 		65C27C37274FEC9B003DBEF6 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C27C36274FEC9B003DBEF6 /* MainViewModel.swift */; };
@@ -78,6 +81,9 @@
 		4526E07E27343C2500BC93B0 /* TempViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TempViewController.storyboard; sourceTree = "<group>"; };
 		4526E08327343C3D00BC93B0 /* TempViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempViewModel.swift; sourceTree = "<group>"; };
 		4526E08827343C5800BC93B0 /* TempModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempModel.swift; sourceTree = "<group>"; };
+		5E02AEC927632AA800C198FD /* twitterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = twitterModel.swift; sourceTree = "<group>"; };
+		5E02AECE2763307500C198FD /* RyomaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RyomaTableViewCell.swift; sourceTree = "<group>"; };
+		5E02AECF2763307500C198FD /* RyomaTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RyomaTableViewCell.xib; sourceTree = "<group>"; };
 		65C27C2F274FE9DE003DBEF6 /* MainTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
 		65C27C30274FE9DE003DBEF6 /* MainTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainTableViewCell.xib; sourceTree = "<group>"; };
 		65C27C36274FEC9B003DBEF6 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
@@ -263,6 +269,9 @@
 			children = (
 				65C27C9C2750AC76003DBEF6 /* RyomaViewController.swift */,
 				65C27CA12750AC7F003DBEF6 /* RyomaViewController.storyboard */,
+				5E02AEC927632AA800C198FD /* twitterModel.swift */,
+				5E02AECE2763307500C198FD /* RyomaTableViewCell.swift */,
+				5E02AECF2763307500C198FD /* RyomaTableViewCell.xib */,
 			);
 			path = ryouma;
 			sourceTree = "<group>";
@@ -421,6 +430,7 @@
 				65C27C932750AC60003DBEF6 /* MasakiViewController.storyboard in Resources */,
 				4526E02E2734385200BC93B0 /* Assets.xcassets in Resources */,
 				65C27CA22750AC7F003DBEF6 /* RyomaViewController.storyboard in Resources */,
+				5E02AED12763307500C198FD /* RyomaTableViewCell.xib in Resources */,
 				4526E0292734384F00BC93B0 /* Main.storyboard in Resources */,
 				4526E07F27343C2500BC93B0 /* TempViewController.storyboard in Resources */,
 				65C27C32274FE9DE003DBEF6 /* MainTableViewCell.xib in Resources */,
@@ -454,7 +464,9 @@
 				4526E08927343C5800BC93B0 /* TempModel.swift in Sources */,
 				65C27C982750AC6A003DBEF6 /* MasakiViewController.swift in Sources */,
 				65C27C4D274FFF0F003DBEF6 /* UIViewController+.swift in Sources */,
+				5E02AED02763307500C198FD /* RyomaTableViewCell.swift in Sources */,
 				65C27C44274FF977003DBEF6 /* UITableViewCell+.swift in Sources */,
+				5E02AECA27632AA800C198FD /* twitterModel.swift in Sources */,
 				65C27C31274FE9DE003DBEF6 /* MainTableViewCell.swift in Sources */,
 				4526E07927343C0F00BC93B0 /* TempViewController.swift in Sources */,
 				65C27C6B2750ABFA003DBEF6 /* KeiViewController.swift in Sources */,
