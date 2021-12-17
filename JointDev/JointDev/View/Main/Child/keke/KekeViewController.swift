@@ -45,5 +45,6 @@ extension KekeViewController {
     static func instantiate() -> Self {
         let vc: KekeViewController = .loadFromStoryboard()
         return vc as! Self
+        
     }
 }
