@@ -7,15 +7,14 @@
 
 import UIKit
 
-class RyomaTableViewCell: UITableViewCell {
-    
+final class RyomaTableViewCell: UITableViewCell {
     
     @IBOutlet weak var profileImage: UIImageView!
     @IBOutlet weak var userName: UILabel!
     @IBOutlet weak var userID: UILabel!
     @IBOutlet weak var goodImage: UIImageView!
     @IBOutlet weak var goodNumber: UILabel!
-    
+    @IBOutlet weak var comment: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -23,11 +22,4 @@ class RyomaTableViewCell: UITableViewCell {
         profileImage.image = UIImage(named: "person")
         goodImage.image = UIImage(named: "goodButton")
     }
-
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
-    }
-    
 }
