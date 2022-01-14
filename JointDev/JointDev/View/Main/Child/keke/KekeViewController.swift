@@ -9,7 +9,9 @@ import UIKit
 import AVFoundation
 
 class KekeViewController: UIViewController {
+    
     let alarm = Alarm()
+    
     @IBOutlet weak var sleepTimePicker: UIDatePicker!
     
     override func viewDidLoad() {
@@ -33,13 +35,11 @@ class KekeViewController: UIViewController {
             alarm.selectedWakeUpTime = sleepTimePicker.date
             //AlarmのrunTimerを呼ぶ
             alarm.runTimer()
-            //StopViewControllerへの画面移動
-            performSegue(withIdentifier: "setToSleeping", sender: nil)
+            //StopAlarmViewControllerへの画面移動
+            performSegue(withIdentifier: "ToSet", sender: nil)
     }
     
 }
-
-
 
 extension KekeViewController {
     static func instantiate() -> Self {

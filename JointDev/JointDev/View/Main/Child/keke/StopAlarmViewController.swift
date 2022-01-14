@@ -5,6 +5,7 @@
 //  Created by MacUser on 2021/12/10.
 //
 
+import Foundation
 import UIKit
 
 class StopAlarmViewController: UIViewController{
@@ -14,7 +15,8 @@ class StopAlarmViewController: UIViewController{
     @IBOutlet weak var timeLabel: UILabel!
     
     override func viewDidLoad() {
-        }
+        currentTime.delegate = self
+    }
     
     
     @IBAction func stopButton(_ sender: UIButton) {

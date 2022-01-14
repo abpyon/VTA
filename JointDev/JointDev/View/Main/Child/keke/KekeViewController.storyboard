@@ -17,22 +17,30 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Alarm Set" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cWa-km-53W">
-                                <rect key="frame" x="103" y="65" width="209" height="42"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="zAU-6l-VSo">
+                                <rect key="frame" x="47" y="136.5" width="320" height="216"/>
+                            </datePicker>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Alarm Set" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cWa-km-53W">
+                                <rect key="frame" x="50" y="74" width="314" height="32.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="27"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <datePicker contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="zAU-6l-VSo">
-                                <rect key="frame" x="0.0" y="124" width="414" height="323"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                            </datePicker>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="c1d-bY-oJU">
-                                <rect key="frame" x="150" y="618" width="115" height="88"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c1d-bY-oJU">
+                                <rect key="frame" x="50" y="572.5" width="314" height="27"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Set"/>
+                                <buttonConfiguration key="configuration" style="plain" titleAlignment="center">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="set">
+                                            <attributes>
+                                                <font key="NSFont" size="20" name="Helvetica"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                    <directionalEdgeInsets key="contentInsets" top="0.0" leading="0.0" bottom="4" trailing="0.0"/>
+                                    <color key="baseForegroundColor" systemColor="systemPinkColor"/>
+                                </buttonConfiguration>
                                 <connections>
                                     <action selector="setButton:" destination="auf-e6-Hux" eventType="touchUpInside" id="Ngc-1H-XrN"/>
                                 </connections>
@@ -40,19 +48,84 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="sjM-AM-7Ob"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="sjM-AM-7Ob" firstAttribute="trailing" secondItem="c1d-bY-oJU" secondAttribute="trailing" constant="50" id="LDc-EV-EFa"/>
+                            <constraint firstItem="zAU-6l-VSo" firstAttribute="top" secondItem="cWa-km-53W" secondAttribute="bottom" constant="30" id="MtE-a6-sMa"/>
+                            <constraint firstItem="c1d-bY-oJU" firstAttribute="top" secondItem="zAU-6l-VSo" secondAttribute="bottom" constant="220" id="SEI-0V-ThP"/>
+                            <constraint firstItem="c1d-bY-oJU" firstAttribute="centerX" secondItem="e7l-1A-fdg" secondAttribute="centerX" id="WM0-Ap-6sA"/>
+                            <constraint firstItem="cWa-km-53W" firstAttribute="centerX" secondItem="e7l-1A-fdg" secondAttribute="centerX" id="enZ-ov-Ld2"/>
+                            <constraint firstItem="sjM-AM-7Ob" firstAttribute="trailing" secondItem="cWa-km-53W" secondAttribute="trailing" constant="50" id="ko5-r1-1P9"/>
+                            <constraint firstItem="cWa-km-53W" firstAttribute="top" secondItem="sjM-AM-7Ob" secondAttribute="top" constant="30" id="lI6-bK-fmA"/>
+                            <constraint firstItem="zAU-6l-VSo" firstAttribute="centerX" secondItem="e7l-1A-fdg" secondAttribute="centerX" id="lnV-LI-Bwa"/>
+                            <constraint firstItem="cWa-km-53W" firstAttribute="leading" secondItem="sjM-AM-7Ob" secondAttribute="leading" constant="50" id="xSK-ni-RWg"/>
+                            <constraint firstItem="c1d-bY-oJU" firstAttribute="leading" secondItem="sjM-AM-7Ob" secondAttribute="leading" constant="50" id="zV3-V1-hou"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="sleepTimePicker" destination="zAU-6l-VSo" id="PTb-Pk-g6H"/>
+                        <segue destination="1u9-qo-aMr" kind="presentation" identifier="ToSet" id="ULB-CA-9uh"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x3D-Ev-1b0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-23.188405797101453" y="-4.0178571428571423"/>
+            <point key="canvasLocation" x="-1149.2753623188407" y="46.875"/>
+        </scene>
+        <!--Stop Alarm View Controller-->
+        <scene sceneID="nqN-Wk-vNX">
+            <objects>
+                <viewController id="1u9-qo-aMr" customClass="StopAlarmViewController" customModule="JointDev" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="w3A-Oi-NLs">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1BY-yF-nXk">
+                                <rect key="frame" x="171.5" y="393.5" width="71" height="37"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" titleAlignment="automatic">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Stop!">
+                                            <attributes>
+                                                <font key="NSFont" size="20" name="Helvetica"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                    <color key="baseForegroundColor" systemColor="systemPinkColor"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="stopButton:" destination="1u9-qo-aMr" eventType="touchUpInside" id="5Co-Mk-AIW"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="12:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="laO-ia-NYk">
+                                <rect key="frame" x="161" y="199" width="92" height="44.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="37"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="3Fd-vT-Dcc"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="laO-ia-NYk" firstAttribute="centerY" secondItem="w3A-Oi-NLs" secondAttribute="centerY" constant="-200" id="3cI-wp-eZ3"/>
+                            <constraint firstItem="1BY-yF-nXk" firstAttribute="centerX" secondItem="w3A-Oi-NLs" secondAttribute="centerX" id="eoP-f2-DpT"/>
+                            <constraint firstItem="1BY-yF-nXk" firstAttribute="top" secondItem="laO-ia-NYk" secondAttribute="bottom" constant="150" id="nfo-ri-YsV"/>
+                            <constraint firstItem="laO-ia-NYk" firstAttribute="centerX" secondItem="w3A-Oi-NLs" secondAttribute="centerX" id="zrv-1V-u1l"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="timeLabel" destination="laO-ia-NYk" id="XbT-0m-ioN"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Q9B-Yb-p40" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-135" y="47"/>
         </scene>
     </scenes>
     <resources>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemPinkColor">
+            <color red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
