@@ -28,42 +28,36 @@ class Alarm{
     //一秒ごとにsleepTimerに呼ばれる
     @objc private func updateTimer(){
         if seconds != 0{
-            //secondsから-1する
             seconds -= 1
+            
+            print(seconds)
         }else{
-            //タイマーを止める
             sleepTimer?.invalidate()
-            //タイマーにnil代入
             sleepTimer = nil
-            //音源パス
-            let soundFilePath = Bundle.main.path(forResource: "", ofType: "")!
-            //パスのURL
+            let soundFilePath = Bundle.main.path(forResource: "Gunshot01-1", ofType: "mp3")!
             let sound:URL = URL(fileURLWithPath: soundFilePath)
             do {
-                //AVAudioPlayerを作成
                 audioPlayer = try AVAudioPlayer(contentsOf: sound, fileTypeHint:nil)
+                //Swift4
+                //try AVAudioSession.sharedInstance().setCategory(AVAudioSessionCategoryPlayback, with: .mixWithOthers)
+                //Swift 4.2
                 try AVAudioSession.sharedInstance().setCategory(.playback, mode: .default, options: [])
                 try AVAudioSession.sharedInstance().setActive(true)
             } catch {
-                print("Could not load file")
+                print("Cannot load file")
             }
-            //再生
             audioPlayer.play()
+            print(audioPlayer.isPlaying)
         }
     }
     
     func stopTimer(){
-             //sleepTimerがnilじゃない場合
-            if sleepTimer != nil {
-               //タイマーを止める
-                sleepTimer?.invalidate()
-                //タイマーにnil代入
-                sleepTimer = nil
-            }else{
-                //タイマーを止める
-                audioPlayer.stop()
-            }
+        if sleepTimer != nil {
+            sleepTimer!.invalidate()
+            sleepTimer = nil
         }
+    }
+
     //起きる時間までの秒数を計算
     private func calculateInterval(userAwakeTime:Date)-> Int{
         //タイマーの時間を計算する

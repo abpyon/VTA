@@ -51,6 +51,8 @@ extension MainViewController: UITableViewDelegate {
             break
         case .keke:
             // 遷移メソッドをかく
+            let vc: KekeViewController = .instantiate()
+            present(vc)
             break
         case .kei:
             // 遷移メソッドをかく

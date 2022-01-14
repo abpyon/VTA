@@ -20,10 +20,12 @@
 		4526E07F27343C2500BC93B0 /* TempViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4526E07E27343C2500BC93B0 /* TempViewController.storyboard */; };
 		4526E08427343C3D00BC93B0 /* TempViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4526E08327343C3D00BC93B0 /* TempViewModel.swift */; };
 		4526E08927343C5800BC93B0 /* TempModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4526E08827343C5800BC93B0 /* TempModel.swift */; };
-		635252462763286400D8BA1E /* StopAlarm.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 635252452763286300D8BA1E /* StopAlarm.storyboard */; };
-		63525248276328A300D8BA1E /* StopAlarmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63525247276328A300D8BA1E /* StopAlarmViewController.swift */; };
-		6352524A27632B9E00D8BA1E /* CurrentTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6352524927632B9E00D8BA1E /* CurrentTime.swift */; };
-		6352524C27632E1000D8BA1E /* Alarm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6352524B27632E1000D8BA1E /* Alarm.swift */; };
+		639275BC27914B3000D88CCA /* CurrentTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639275B727914B3000D88CCA /* CurrentTime.swift */; };
+		639275BD27914B3000D88CCA /* KekeViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 639275B827914B3000D88CCA /* KekeViewController.storyboard */; };
+		639275BE27914B3000D88CCA /* KekeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639275B927914B3000D88CCA /* KekeViewController.swift */; };
+		639275BF27914B3000D88CCA /* Alarm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639275BA27914B3000D88CCA /* Alarm.swift */; };
+		639275C027914B3000D88CCA /* StopAlarmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639275BB27914B3000D88CCA /* StopAlarmViewController.swift */; };
+		639275C22791501C00D88CCA /* Gunshot01-1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 639275C12791501C00D88CCA /* Gunshot01-1.mp3 */; };
 		65C27C31274FE9DE003DBEF6 /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C27C2F274FE9DE003DBEF6 /* MainTableViewCell.swift */; };
 		65C27C32274FE9DE003DBEF6 /* MainTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65C27C30274FE9DE003DBEF6 /* MainTableViewCell.xib */; };
 		65C27C37274FEC9B003DBEF6 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C27C36274FEC9B003DBEF6 /* MainViewModel.swift */; };
@@ -33,8 +35,6 @@
 		65C27C52274FFF8C003DBEF6 /* NSObject+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C27C51274FFF8C003DBEF6 /* NSObject+.swift */; };
 		65C27C6B2750ABFA003DBEF6 /* KeiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C27C6A2750ABFA003DBEF6 /* KeiViewController.swift */; };
 		65C27C702750AC0B003DBEF6 /* KeiViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65C27C6F2750AC0B003DBEF6 /* KeiViewController.storyboard */; };
-		65C27C752750AC19003DBEF6 /* KekeViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65C27C742750AC19003DBEF6 /* KekeViewController.storyboard */; };
-		65C27C7A2750AC24003DBEF6 /* KekeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C27C792750AC24003DBEF6 /* KekeViewController.swift */; };
 		65C27C7F2750AC30003DBEF6 /* KatoshinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C27C7E2750AC30003DBEF6 /* KatoshinViewController.swift */; };
 		65C27C842750AC3B003DBEF6 /* KatoshinViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65C27C832750AC3B003DBEF6 /* KatoshinViewController.storyboard */; };
 		65C27C892750AC4C003DBEF6 /* KameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C27C882750AC4C003DBEF6 /* KameViewController.swift */; };
@@ -82,10 +82,12 @@
 		4526E07E27343C2500BC93B0 /* TempViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TempViewController.storyboard; sourceTree = "<group>"; };
 		4526E08327343C3D00BC93B0 /* TempViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempViewModel.swift; sourceTree = "<group>"; };
 		4526E08827343C5800BC93B0 /* TempModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempModel.swift; sourceTree = "<group>"; };
-		635252452763286300D8BA1E /* StopAlarm.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = StopAlarm.storyboard; sourceTree = "<group>"; };
-		63525247276328A300D8BA1E /* StopAlarmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopAlarmViewController.swift; sourceTree = "<group>"; };
-		6352524927632B9E00D8BA1E /* CurrentTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentTime.swift; sourceTree = "<group>"; };
-		6352524B27632E1000D8BA1E /* Alarm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alarm.swift; sourceTree = "<group>"; };
+		639275B727914B3000D88CCA /* CurrentTime.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentTime.swift; sourceTree = "<group>"; };
+		639275B827914B3000D88CCA /* KekeViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = KekeViewController.storyboard; sourceTree = "<group>"; };
+		639275B927914B3000D88CCA /* KekeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KekeViewController.swift; sourceTree = "<group>"; };
+		639275BA27914B3000D88CCA /* Alarm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alarm.swift; sourceTree = "<group>"; };
+		639275BB27914B3000D88CCA /* StopAlarmViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StopAlarmViewController.swift; sourceTree = "<group>"; };
+		639275C12791501C00D88CCA /* Gunshot01-1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Gunshot01-1.mp3"; sourceTree = "<group>"; };
 		65C27C2F274FE9DE003DBEF6 /* MainTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
 		65C27C30274FE9DE003DBEF6 /* MainTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainTableViewCell.xib; sourceTree = "<group>"; };
 		65C27C36274FEC9B003DBEF6 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
@@ -95,8 +97,6 @@
 		65C27C51274FFF8C003DBEF6 /* NSObject+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSObject+.swift"; sourceTree = "<group>"; };
 		65C27C6A2750ABFA003DBEF6 /* KeiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeiViewController.swift; sourceTree = "<group>"; };
 		65C27C6F2750AC0B003DBEF6 /* KeiViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = KeiViewController.storyboard; sourceTree = "<group>"; };
-		65C27C742750AC19003DBEF6 /* KekeViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = KekeViewController.storyboard; sourceTree = "<group>"; };
-		65C27C792750AC24003DBEF6 /* KekeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KekeViewController.swift; sourceTree = "<group>"; };
 		65C27C7E2750AC30003DBEF6 /* KatoshinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KatoshinViewController.swift; sourceTree = "<group>"; };
 		65C27C832750AC3B003DBEF6 /* KatoshinViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = KatoshinViewController.storyboard; sourceTree = "<group>"; };
 		65C27C882750AC4C003DBEF6 /* KameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = KameViewController.swift; path = JointDev/View/Main/Child/katoshin/KameViewController.swift; sourceTree = SOURCE_ROOT; };
@@ -305,12 +305,12 @@
 		65C27C672750ABBD003DBEF6 /* keke */ = {
 			isa = PBXGroup;
 			children = (
-				65C27C792750AC24003DBEF6 /* KekeViewController.swift */,
-				65C27C742750AC19003DBEF6 /* KekeViewController.storyboard */,
-				63525247276328A300D8BA1E /* StopAlarmViewController.swift */,
-				635252452763286300D8BA1E /* StopAlarm.storyboard */,
-				6352524927632B9E00D8BA1E /* CurrentTime.swift */,
-				6352524B27632E1000D8BA1E /* Alarm.swift */,
+				639275C12791501C00D88CCA /* Gunshot01-1.mp3 */,
+				639275BB27914B3000D88CCA /* StopAlarmViewController.swift */,
+				639275B727914B3000D88CCA /* CurrentTime.swift */,
+				639275B827914B3000D88CCA /* KekeViewController.storyboard */,
+				639275B927914B3000D88CCA /* KekeViewController.swift */,
+				639275BA27914B3000D88CCA /* Alarm.swift */,
 			);
 			path = keke;
 			sourceTree = "<group>";
@@ -431,13 +431,13 @@
 				65C27C842750AC3B003DBEF6 /* KatoshinViewController.storyboard in Resources */,
 				4526E0312734385200BC93B0 /* LaunchScreen.storyboard in Resources */,
 				65C27C932750AC60003DBEF6 /* MasakiViewController.storyboard in Resources */,
+				639275C22791501C00D88CCA /* Gunshot01-1.mp3 in Resources */,
 				4526E02E2734385200BC93B0 /* Assets.xcassets in Resources */,
 				65C27CA22750AC7F003DBEF6 /* RyomaViewController.storyboard in Resources */,
-				635252462763286400D8BA1E /* StopAlarm.storyboard in Resources */,
 				4526E0292734384F00BC93B0 /* Main.storyboard in Resources */,
 				4526E07F27343C2500BC93B0 /* TempViewController.storyboard in Resources */,
 				65C27C32274FE9DE003DBEF6 /* MainTableViewCell.xib in Resources */,
-				65C27C752750AC19003DBEF6 /* KekeViewController.storyboard in Resources */,
+				639275BD27914B3000D88CCA /* KekeViewController.storyboard in Resources */,
 				65C27C702750AC0B003DBEF6 /* KeiViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -469,22 +469,22 @@
 				65C27C4D274FFF0F003DBEF6 /* UIViewController+.swift in Sources */,
 				65C27C44274FF977003DBEF6 /* UITableViewCell+.swift in Sources */,
 				65C27C31274FE9DE003DBEF6 /* MainTableViewCell.swift in Sources */,
-				6352524A27632B9E00D8BA1E /* CurrentTime.swift in Sources */,
 				4526E07927343C0F00BC93B0 /* TempViewController.swift in Sources */,
 				65C27C6B2750ABFA003DBEF6 /* KeiViewController.swift in Sources */,
 				65C27C7F2750AC30003DBEF6 /* KatoshinViewController.swift in Sources */,
+				639275C027914B3000D88CCA /* StopAlarmViewController.swift in Sources */,
 				4526E0262734384F00BC93B0 /* MainViewController.swift in Sources */,
+				639275BC27914B3000D88CCA /* CurrentTime.swift in Sources */,
+				639275BF27914B3000D88CCA /* Alarm.swift in Sources */,
 				65C27C892750AC4C003DBEF6 /* KameViewController.swift in Sources */,
 				4526E0222734384F00BC93B0 /* AppDelegate.swift in Sources */,
-				65C27C7A2750AC24003DBEF6 /* KekeViewController.swift in Sources */,
 				4526E08427343C3D00BC93B0 /* TempViewModel.swift in Sources */,
-				63525248276328A300D8BA1E /* StopAlarmViewController.swift in Sources */,
 				4526E0242734384F00BC93B0 /* SceneDelegate.swift in Sources */,
+				639275BE27914B3000D88CCA /* KekeViewController.swift in Sources */,
 				65C27C52274FFF8C003DBEF6 /* NSObject+.swift in Sources */,
 				65C27C3C274FECC3003DBEF6 /* MainModel.swift in Sources */,
 				65C27C9D2750AC76003DBEF6 /* RyomaViewController.swift in Sources */,
 				65C27C37274FEC9B003DBEF6 /* MainViewModel.swift in Sources */,
-				6352524C27632E1000D8BA1E /* Alarm.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
