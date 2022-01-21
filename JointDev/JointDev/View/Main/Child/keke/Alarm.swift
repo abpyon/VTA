@@ -48,6 +48,33 @@ class Alarm{
             }
             audioPlayer.play()
             print(audioPlayer.isPlaying)
+            
+            let content = UNMutableNotificationContent()
+            content.title = "Timer is ringing"
+            content.body = "設定した時間になりました"
+            content.sound = UNNotificationSound.default
+            
+            /*
+             let notificationCenter = UNUserNotificationCenter.current()
+             
+             var dateComponentsDay = DateComponents()
+                    dateComponentsDay.hour = alertModel.alermTime
+                    dateComponentsDay.minute = alertModel.alermMinute
+                     
+                    let trigger = UNCalendarNotificationTrigger(dateMatching: dateComponentsDay, repeats: false)
+                     
+                    let request = UNNotificationRequest(identifier: alertModel.alermId, content: content, trigger: trigger)
+                     
+                    notificationCenter.add(request) { (error) in
+                        if error != nil {
+                            print(error.debugDescription)
+                        }
+                    }
+             */
+            
+            
+            
+            
         }
     }
     
