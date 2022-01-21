@@ -23,7 +23,6 @@
 		639275BC27914B3000D88CCA /* CurrentTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639275B727914B3000D88CCA /* CurrentTime.swift */; };
 		639275BD27914B3000D88CCA /* KekeViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 639275B827914B3000D88CCA /* KekeViewController.storyboard */; };
 		639275BE27914B3000D88CCA /* KekeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639275B927914B3000D88CCA /* KekeViewController.swift */; };
-		639275BF27914B3000D88CCA /* Alarm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639275BA27914B3000D88CCA /* Alarm.swift */; };
 		639275C027914B3000D88CCA /* StopAlarmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639275BB27914B3000D88CCA /* StopAlarmViewController.swift */; };
 		639275C22791501C00D88CCA /* Gunshot01-1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 639275C12791501C00D88CCA /* Gunshot01-1.mp3 */; };
 		65C27C31274FE9DE003DBEF6 /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C27C2F274FE9DE003DBEF6 /* MainTableViewCell.swift */; };
@@ -85,7 +84,6 @@
 		639275B727914B3000D88CCA /* CurrentTime.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentTime.swift; sourceTree = "<group>"; };
 		639275B827914B3000D88CCA /* KekeViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = KekeViewController.storyboard; sourceTree = "<group>"; };
 		639275B927914B3000D88CCA /* KekeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KekeViewController.swift; sourceTree = "<group>"; };
-		639275BA27914B3000D88CCA /* Alarm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alarm.swift; sourceTree = "<group>"; };
 		639275BB27914B3000D88CCA /* StopAlarmViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StopAlarmViewController.swift; sourceTree = "<group>"; };
 		639275C12791501C00D88CCA /* Gunshot01-1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Gunshot01-1.mp3"; sourceTree = "<group>"; };
 		65C27C2F274FE9DE003DBEF6 /* MainTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
@@ -310,7 +308,6 @@
 				639275B727914B3000D88CCA /* CurrentTime.swift */,
 				639275B827914B3000D88CCA /* KekeViewController.storyboard */,
 				639275B927914B3000D88CCA /* KekeViewController.swift */,
-				639275BA27914B3000D88CCA /* Alarm.swift */,
 			);
 			path = keke;
 			sourceTree = "<group>";
@@ -475,7 +472,6 @@
 				639275C027914B3000D88CCA /* StopAlarmViewController.swift in Sources */,
 				4526E0262734384F00BC93B0 /* MainViewController.swift in Sources */,
 				639275BC27914B3000D88CCA /* CurrentTime.swift in Sources */,
-				639275BF27914B3000D88CCA /* Alarm.swift in Sources */,
 				65C27C892750AC4C003DBEF6 /* KameViewController.swift in Sources */,
 				4526E0222734384F00BC93B0 /* AppDelegate.swift in Sources */,
 				4526E08427343C3D00BC93B0 /* TempViewModel.swift in Sources */,
